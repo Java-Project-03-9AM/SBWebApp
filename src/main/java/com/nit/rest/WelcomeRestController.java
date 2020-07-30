@@ -18,7 +18,7 @@ public class WelcomeRestController {
 	@GetMapping(value = "/welcome/{name}")
 	public String welcomeMsg(@PathVariable("name") String name) {
 		logger.info("welcomeMsg() execution start");
-		String msg = name + ", Welcome to TEK Leads Family....!!";
+		String msg = name + ", Welcome to Ashok IT Family....!!";
 		logger.info("welcomeMsg() execution end");
 		return msg;
 	}
